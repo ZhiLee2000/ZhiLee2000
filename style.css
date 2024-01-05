@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Judson:wght@700&family=Passion+One&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(image/background\ image.png);
+}
+div.wrap-all {
+    width: 1072px;
+    margin: 20px auto;
+}
+div.main {
+    margin-top: 73px;
+    width: 1072px;
+    height: 272px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Inria Serif', serif;
+    color: white;
+    padding-left: 660px;
+    padding-top: 100px;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-image: url(image/main\(2\).jpg)
+}
+div.card {
+    width: 326px;
+    border-radius: 20px;
+}
+div.card-image {
+    width: 345px;
+    height: 210px;
+    border-radius: 20px;
+    background-size: cover;
+}
+div.card-intro {
+    font-family: 'Inria Serif', serif;
+    font-size: 20px;
+    width: 345px;
+    margin-left: 10px;
+}
+.two .card-intro {
+    margin-bottom: 20px;
+}
+div.title {
+    font-family: 'Judson', serif;
+    font-weight: 700px;
+    font-size: 28px;
+}
+section {
+    display: flex;
+    gap: 45px;
+}
+div.one .card-image {
+    background-image: url(image/color\(1\).jpg);
+}
+div.two .card-image {
+    background-image: url(image/mouse\(1\).jpg);
+}
+div.three .card-image {
+    background-image: url(image/geometry\(1\).jpg);
+}
+a.top {
+    color: black;
+    font-size: 28px;
+    font-family: 'Inria Serif', serif;
+    display: block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 100px;
+    border-radius: 100px;
+    background-color: #d9d9d9;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.header-buttons {
+    position: absolute;
+    top: 20px; 
+    right: 10px; 
+    z-index: 10;
+  }
+  
+  #language, #login, #signup {
+    width: 115px;
+    height: 32px;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #536D75;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Inria Serif', serif;
+  }
+  
+  #language:hover, #login:hover, #signup:hover {
+    background-color: #536D75;
+    color: white;
+    font-family: 'Inria Serif', serif;
+  }
+  
+  #signup {
+    background-color: #536D75; 
+    color: white;
+    font-family: 'Inria Serif', serif;
+  }
+
