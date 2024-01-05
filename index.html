@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header-buttons">
+        <button id="language">English</button>
+        <button id="login">Log In</button>
+        <button id="signup">Sign Up</button>
+      </div>      
+    <div class="wrap-all">
+    <div class="main">
+        Color Models
+    </div>
+    <section>
+        <div class="card one">
+            <div class="card-image"></div>
+            <div class="card-intro">
+                <div class="title">How does RGB color model work?</div>
+                The RGB color model stands for red, green, and blue. It is an additive color model, which means different amounts of red, green, and blue light are mixed to produce all other colors.
+            </div>
+        </div>
+        <div class="card two">
+            <div class="card-intro">
+                <div class="title">What are RGB and CMYK color models?</div>
+                The CMYK color model is a subtractive color model and stands for cyan, magenta, yellow, and black. The RGB color model is an additive color model and stands for red, green, and blue.
+            </div>
+            <div class="card-image"></div>
+        </div>
+        <div class="card three">
+            <div class="card-image"></div>
+            <div class="card-intro">
+                <div class="title">How is the CMYK color model usually used?</div>
+                The CMYK color model stands for cyan, magenta, yellow, and black. The CMYK color model is a subtractive color model used for mixing pigments.
+            </div>
+        </div>
+    </section>
+    </div>
+    <div id="top"></div>
+    <a href="#top" class="top">TOP</a>
+    <script>
+        document.querySelector('.top').addEventListener('click', function(event) {
+          event.preventDefault();
+          window.scrollTo({top: 0, behavior: 'smooth'});
+        });
+        </script>
+</body>
+</html>
